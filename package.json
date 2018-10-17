@@ -1,0 +1,17 @@
+{
+  "name": "vue-double-scrollbar",
+  "version": "0.0.1",
+  "description": "vue double scroll bar components",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "vue",
+    "scrollbar"
+  ],
+  "author": "deng",
+  "license": "ISC",
+  "dependencies": {
+  }
+}
