@@ -13,12 +13,12 @@ export default {
   name:'vueDoubleScrollbar',
   data(){
     return {
-      state:'',
+      sWidth:'',
     }
   },
   computed:{
     scrollBarStyle(){
-      return { paddingTop: "1px", width: this.state }
+      return { paddingTop: "1px", width: this.sWidth }
     }
   },
   methods:{
@@ -46,8 +46,8 @@ export default {
       if (width == null) {
         width = "auto";
       }
-      if (width !== this.state) {
-        this.state = width
+      if (width !== this.sWidth) {
+        this.sWidth = width
       }
     }
   },

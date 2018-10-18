@@ -1,7 +1,7 @@
 {
   "name": "vue-double-scrollbar",
-  "version": "0.0.1",
-  "description": "vue double scroll bar components",
+  "version": "0.1.2",
+  "description": "vue double scrollbar components",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
